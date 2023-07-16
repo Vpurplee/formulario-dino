@@ -2,7 +2,7 @@ body{
     background-image:url('https://img.wallpapic-br.com/i1862-037-811/thumb/espaco-roxos-azuis-astronomia-imagem-de-fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
+    width: 100%;
 }
 #form_title h5, p{
     display: flex;
@@ -25,6 +25,7 @@ body{
 #form_header{
     border-bottom: 1px solid #16161691;
 }
+
 #registro_login{
     display: flex;
     justify-content: center;
@@ -140,4 +141,68 @@ body{
     position: absolute;
     bottom: 0;
     right: 10px;
+  }
+  @media screen and (max-width: 600px){
+    #login_form{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    #form_header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    #form_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    #form_title h5{
+        font-size: 15px;
+    }
+    #form_title p{
+        font-size: 30px;
+    }
+    #form_group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    #form_group input{
+        width: 80%;
+    }
+    #registro_login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto Mono', monoespaçado;
+        font-size: 15px;
+        color: #F0F0F0;
+        cursor: pointer;
+    }
+    #login{
+        margin: 10px;
+    }
+    #cadastro{
+        margin: 10px;
+    }
+    #form_group button{
+        width: 80%;
+    }
+    #form_group a{
+        font-size: 15px;
+    }
+body{
+    background-image:url('https://img.wallpapic-br.com/i1862-037-811/thumb/espaco-roxos-azuis-astronomia-imagem-de-fundo.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
   }

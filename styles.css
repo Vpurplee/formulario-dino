@@ -1,0 +1,143 @@
+body{
+    background-image:url('https://img.wallpapic-br.com/i1862-037-811/thumb/espaco-roxos-azuis-astronomia-imagem-de-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#form_title h5, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: #F0F0F0;
+    font-family: 'Roboto Mono', monoespaçado;
+}
+#form_title h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+#form_title p{
+    font-size: 40px;
+    background-image: linear-gradient(to right, #D811D1, #BF36C4, #8c029d, #65037A, #4B0066);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#form_header{
+    border-bottom: 1px solid #16161691;
+}
+#registro_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: 20px;
+    color: #F0F0F0;
+    cursor: pointer;
+}
+#cadastro:hover{
+    border-bottom: 1px solid #cecece;
+}
+#login:hover{
+    border-bottom: 1px solid #cecece;
+}
+
+#form_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: #F0F0F0;
+}
+#form_group input{
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: 20px;
+    outline: none;
+    background-color: transparent;
+    
+}
+#form_group input:focus{
+    border-bottom: 1px solid #D811D1;
+}
+#form_group button{
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 20px;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #793176, #9B12A0, #8c029d, #65037A, #4B0066);
+    color: #F0F0F0;
+}
+#form_group button:hover{
+    background-image: linear-gradient(to right, #4B0066, #65037A, #8c029d, #9B12A0, #793176);
+}
+
+#form_group a{
+    text-decoration: none;
+    color: #F0F0F0;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: 20px;
+}
+#form_group a:hover{
+    color: #D811D1;
+}
+#remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#remember input{
+    margin: 10px;
+
+}
+#remember label{
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: 20px;
+}
+#login_form{
+    border: 1px solid  #16161691;
+    box-shadow: 0px 0px 10px 0px #16161691;
+    height: 550px;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    backdrop-filter: blur(3px); /* Aplica um desfoque no elemento */ 
+}
+#log_in{
+    margin: -5px;
+    cursor: pointer;
+}
+#signup{
+    cursor: pointer;
+}
+.white-text {
+    color: #F0F0F0;
+  }.white-text::-webkit-input-placeholder {
+    color: #F0F0F0;
+  }
+  
+  .white-text:-moz-placeholder {
+    color: #F0F0F0;
+  }
+  
+  .white-text::-moz-placeholder {
+    color: #F0F0F0;
+  }
+  
+  .white-text:-ms-input-placeholder {
+    color: #F0F0F0;
+  }
+  .dinossauro{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
